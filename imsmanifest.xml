@@ -1,0 +1,162 @@
+<?xml version="1.0" standalone="no" ?>
+   <manifest identifier="ID-6C5414C5-F700-4583-B869-9AAE06D8AA3B" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" >
+      <metadata>
+         <lom 	xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+            <general>
+               <identifier>ID-6C5414C5-F700-4583-B869-9AAE06D8AA3B</identifier>
+               <title>
+                  <langstring xml:lang="en-US">Camtasia Video Course</langstring>
+               </title>
+               <catalogentry>
+                  <catalog>Camtasia Studio 8 Video Course</catalog>
+                  <entry>
+                     <langstring xml:lang="en-US">Camtasia Video Course</langstring>
+                  </entry>
+               </catalogentry>
+               <language>en</language>
+               <description>
+                  <langstring xml:lang="en-US"></langstring>
+               </description>
+               <keyword>
+                  <langstring xml:lang="en-US">Camtasia Studio 8 Video Course</langstring>
+                  <langstring xml:lang="en-US"></langstring>
+               </keyword>
+               <aggregationlevel>
+                  <source>
+                     <langstring xml:lang="x-none">LOMv1.0</langstring>
+                  </source>
+                  <value>
+                     <langstring xml:lang="x-none">3</langstring>
+                  </value>
+               </aggregationlevel>
+            </general>
+            <lifecycle>
+               <version>
+                  <langstring xml:lang="x-none">1.0</langstring>
+               </version>
+               <status>
+                  <source>
+                     <langstring xml:lang="x-none">LOMv1.0</langstring>
+                  </source>
+                  <value>
+                     <langstring xml:lang="x-none">Final</langstring>
+                  </value>
+               </status>
+               <contribute>
+                  <role>
+                     <source>
+                        <langstring xml:lang="x-none">LOMv1.0</langstring>
+                     </source>
+                     <value>
+                        <langstring xml:lang="x-none"></langstring>
+                     </value>
+                  </role>
+                  <centity>
+                     <vcard>BEGIN:vCard ORG: END:vCard</vcard>
+                  </centity>
+                  <date>
+                     <datetime>2015-04-04</datetime>
+                  </date>
+               </contribute>
+            </lifecycle>
+            <metametadata>
+               <metadatascheme>ADL SCORM 1.2</metadatascheme>
+               <language>en</language>
+            </metametadata>
+            <technical>
+               <format>text/html</format>
+               <location type="URI">.</location>
+               <duration>
+                  <datetime>0:00:20.00</datetime>
+               </duration>
+            </technical>
+            <educational>
+               <learningresourcetype>
+                  <source>
+                     <langstring xml:lang="x-none">LOMv1.0</langstring>
+                  </source>
+                  <value>
+                     <langstring xml:lang="x-none">Exercise</langstring>
+                  </value>
+               </learningresourcetype>
+               <typicallearningtime>
+                  <datetime>0:00:20.00</datetime>
+               </typicallearningtime>
+            </educational>
+            <rights>
+               <cost>
+                  <source>
+                     <langstring xml:lang="x-none">LOMv1.0</langstring>
+                  </source>
+                  <value>
+                     <langstring xml:lang="x-none">no</langstring>
+                  </value>
+               </cost>
+               <copyrightandotherrestrictions>
+                  <source>
+                     <langstring xml:lang="x-none">LOMv1.0</langstring>
+                  </source>
+                  <value>
+                     <langstring xml:lang="x-none">no</langstring>
+                  </value>
+               </copyrightandotherrestrictions>
+               <description>
+                  <langstring xml:lang="en-US">No Copy Rights</langstring>
+               </description>
+            </rights>
+            <classification>
+               <purpose>
+                  <source>
+                     <langstring xml:lang="x-none">LOMv1.0</langstring>
+                  </source>
+                  <value>
+                     <langstring xml:lang="x-none">Idea</langstring>
+                  </value>
+               </purpose>
+               <description>
+                  <langstring xml:lang="en-US"></langstring>
+               </description>
+               <keyword>
+                  <langstring xml:lang="en-US"></langstring>
+               </keyword>
+            </classification>
+         </lom>
+      </metadata>
+      <organizations default="TOC1"> 
+         <organization identifier="TOC1"> 
+            <title>Camtasia Video Course</title>
+            <item identifier="I_SCO0" identifierref="SCO0">
+            <title>Untitled</title>
+            <adlcp:masteryscore>0</adlcp:masteryscore>
+         </item>
+
+         </organization>
+      </organizations>
+      <resources>
+         <resource identifier="SCO0" type="webcontent" adlcp:scormtype="sco" href="Quiz1.html">
+            <file href="Quiz1.html"/>
+            <dependency identifierref="ALLRESOURCES" />
+         </resource>
+                   
+         <resource identifier="ALLRESOURCES" type="webcontent" adlcp:scormtype="asset">
+            <file href="Quiz1.html" />
+            <file href="scripts/techsmith-smart-player.min.js" />
+            <file href="scripts/config_xml.js" />
+            <file href="skins/overlay/spritesheet.min.css" />
+            <file href="skins/overlay/spritesheet.png" />
+            <file href="skins/overlay/techsmith-smart-player.min.css" />
+            <file href="Quiz1.js" />
+            <file href="playerProductInstall.swf" />
+            <file href="Quiz1_embed.css" />
+            <file href="Quiz1_player.html" />
+            <file href="Quiz1.mp4" />
+            <file href="Quiz1_config.xml" />
+            <file href="Quiz1_controller.swf" />
+            <file href="Quiz1_First_Frame.png" />
+            <file href="scormwrapper.js" />
+
+         </resource>
+      </resources>
+   </manifest>
